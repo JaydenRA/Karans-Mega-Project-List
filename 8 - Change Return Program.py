@@ -7,7 +7,7 @@ change = moneyGiven - cost
 
 totalChange = []
 
-while change > 0:
+while change > 0.01:
     while change >= 50:
         change = change - 50
         totalChange.append("£50")
